@@ -1,0 +1,111 @@
+{
+  "pose": {
+    "chin_down": {
+      "enabled": true,
+      "text": "下巴抬一点",
+      "emoji": "☝️",
+      "priority": 2
+    },
+    "shoulder_flat": {
+      "enabled": true,
+      "text": "身体侧一点会更自然",
+      "emoji": "↩️",
+      "priority": 2
+    },
+    "arms_stiff": {
+      "enabled": true,
+      "text": "手不要贴着身体",
+      "emoji": "🤲",
+      "priority": 3
+    },
+    "head_cut": {
+      "enabled": true,
+      "text": "镜头往下一点，头顶留空间",
+      "emoji": "📷",
+      "priority": 1
+    },
+    "too_front_facing": {
+      "enabled": true,
+      "text": "身体侧 45° 更好看",
+      "emoji": "↪️",
+      "priority": 2
+    },
+    "legs_stiff": {
+      "enabled": true,
+      "text": "一只脚稍微往前",
+      "emoji": "🦵",
+      "priority": 3
+    }
+  },
+  "composition": {
+    "subject_too_small": {
+      "enabled": true,
+      "text": "再靠近一些",
+      "emoji": "🔍",
+      "priority": 2
+    },
+    "subject_too_large": {
+      "enabled": true,
+      "text": "稍微往后退一点",
+      "emoji": "↔️",
+      "priority": 2
+    },
+    "face_cut": {
+      "enabled": true,
+      "text": "脸被裁到了，调整取景",
+      "emoji": "⚠️",
+      "priority": 1
+    },
+    "headroom_bad": {
+      "enabled": true,
+      "text": "头顶留一点空间",
+      "emoji": "📐",
+      "priority": 1
+    },
+    "background_cluttered": {
+      "enabled": true,
+      "text": "背景有点乱，缩小取景范围",
+      "emoji": "🌿",
+      "priority": 3
+    },
+    "off_center": {
+      "enabled": true,
+      "text": "人物往中间一点",
+      "emoji": "↔️",
+      "priority": 2
+    }
+  },
+  "lighting": {
+    "face_too_dark": {
+      "enabled": true,
+      "text": "脸有点暗，靠近亮处",
+      "emoji": "💡",
+      "priority": 1
+    },
+    "backlight": {
+      "enabled": true,
+      "text": "逆光了，换个方向",
+      "emoji": "☀️",
+      "priority": 1
+    },
+    "overexposed": {
+      "enabled": true,
+      "text": "光线太强，找点阴影",
+      "emoji": "😎",
+      "priority": 2
+    },
+    "too_dark": {
+      "enabled": true,
+      "text": "光线不足，找亮的地方",
+      "emoji": "🔦",
+      "priority": 1
+    }
+  },
+  "suggestionPolicy": {
+    "maxPrimary": 1,
+    "maxSecondary": 1,
+    "stableFramesRequired": 3,
+    "suppressAfterAdoptMs": 3000,
+    "minSwitchIntervalMs": 2000
+  }
+}
